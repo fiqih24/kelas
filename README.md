@@ -1,4 +1,4 @@
-# About Kelas Repositories
+# Tugas Kuliah Repositories
 * Programming Language Assignment (PHP,JAVA,CI)
 * twitter: @fiqihcbx
 * instagram: @liufiq
