@@ -145,8 +145,17 @@
       );
       $this->db->insert('status_user',$data);
     }
+	  
     public function kirim_pesan($user,$judul,$isi,$pengirim){ //helmi
     date_default_timezone_set('Asia/Jakarta');
  	//query insert dengan format tgl dan jam
+	 $data=array(
+        'username'=>$user,
+        'judul_pesan'=>$judul,
+	'isi_pesan'=>$isi,	 
+	'pengirim'=>$pengirim,	 
+        'waktu'=>date("Y-m-d h:i:s")
+      );
+      $this->db->insert('pesan',$data);
     }
   }
