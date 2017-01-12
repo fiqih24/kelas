@@ -1,7 +1,6 @@
-# About Kelas Repositories
-* Programming Language Assignment (PHP,JAVA,CI)
-* twitter: @fiqihcbx
-* instagram: @liufiq
-* youtube: https://www.youtube.com/channel/UCvfPIDtyorCj_G7m9UC7mZw
-* steamcommunity: http://steamcommunity.com/id/fiqihcbx/
+# About PWL
+* Programming Language Assignment (Web Lanjut)
+* Check bagian model dan controller
+* Pembagian Tugas udah dikasih tanda // komentar di setiap function kosong
+* cek DB untuk menyesuaikan
 
