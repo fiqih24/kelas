@@ -31,6 +31,7 @@
 
     public function get_total_user(){//helmi
       //query sql itung total user
+	return $this->db->query("select count(*) from user");
     }
 
     public function get_total_sajak(){//zaza
