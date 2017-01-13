@@ -124,7 +124,7 @@
 
     public function register_user($data){//helmi
 		//query register
-	
+	$this->db->insert($table,$data);
     }
 
     public function buat_sajak($judul,$isi,$id_kategori){
