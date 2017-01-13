@@ -156,6 +156,7 @@
 	
 	public function register(){ //zaza
 	//panggil view register
+		$this->load->view('register');
 	}
 	public function aksi_register(){//helmi
 	//proses register ke(register_user)
