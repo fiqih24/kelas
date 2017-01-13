@@ -38,6 +38,7 @@
     }
     public function get_total_voting(){//helmi
      //query sql itung total vote
+	    return $this->db->query("select count(*) from user_vote_sajak");
     }
     public function get_sajak_limit(){
 
