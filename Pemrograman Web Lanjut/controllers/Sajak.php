@@ -160,6 +160,24 @@
 	}
 	public function aksi_register(){//helmi
 	//proses register ke(register_user)
+	 $username = $this->input->post('username');
+	 $password = $this->input->post('password');
+	 $email = $this->input->post('email');
+         $nama = $this->input->post('nama');
+         $tanggal = $this->input->post('tanggal');
+	 $alamat = $this->input->post('alamat');
+         $tentang = $this->input->post('tentang');
+	 $data = array(
+            //dB
+	'username' => $username,
+	'password' => $password,
+	'email' => $email,
+        'nama' => $nama,
+        'tgl_lahir' => $tanggal,
+	'alamat' => $alamat,
+        'tentang' => $tentang
+	);
+	$this->Sajak_model->input_data($data,'user');	
 	}
 
     public function login(){
